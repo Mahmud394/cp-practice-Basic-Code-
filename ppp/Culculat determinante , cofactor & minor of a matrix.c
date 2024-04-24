@@ -1,3 +1,5 @@
+//Culculat determinante , cofactor & minor of a matrix
+
 #include <stdio.h>
 
 void getCofactor(int A[10][10], int temp[10][10], int p, int q, int n) {
