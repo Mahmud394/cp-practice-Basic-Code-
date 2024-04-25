@@ -2,24 +2,31 @@
 using namespace std;
 int main ()
 {
-    int A,B;
-    cin>>A>>B;
-  int a[A],b[B];
-    int M=1,N=1;
-  for(int i=1;i<A;i++)
-  {
-      for(int j=1;j<B;j++)
+    int n,m,c=-1;
+    cin>>n>>m;
+
+    for(int i=n;i<=m;i++)
+    {
+       int x=i;
+       int y=0;
+
+      while(x)
       {
-          if(a[i]==4 || b[j]==7 || a[i]==7 || b[j]==4)
+
+          if(x%10!=7 && x%10!=4)
+
+              y++;
+              x=x/10;
+      }
+      if(y==0)
           {
-             M=a[i];
-             N=b[j];
-
+              cout<<i<<" ";
+              c++;
           }
-
-  }
-  cout<<M<<" "<<N;
-
-}
+    }
+    if(c==-1)
+    {
+        cout<<-1<<endl;
+    }
 }
 
