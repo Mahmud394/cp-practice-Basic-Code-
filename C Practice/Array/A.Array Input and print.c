@@ -2,7 +2,7 @@
 int main ()
 {
     int X,i;
-    printf("Enter X :");
+    printf("Enter array size :");
     scanf("%d",&X);
     int A[X];
      printf("Enter array elemant :");
