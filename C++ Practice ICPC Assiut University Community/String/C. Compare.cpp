@@ -71,4 +71,26 @@ int main ()
 
 }
 */
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main ()
+{
+string X;
+getline(cin,X);
+string Y;
+getline(cin,Y);
+int n=X.size();
+int m=Y.size();
+if(n>m)
+    {
+        cout<<Y;
+    }
+    else
+    {
+        cout<<X;
+    }
+
+}
+*/
 

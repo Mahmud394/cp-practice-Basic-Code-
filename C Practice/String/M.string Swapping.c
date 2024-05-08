@@ -3,7 +3,7 @@ int main ()
 {
     char A[20]="Bangladesh";
     char B[20] ="England";
-    int temp [40];
+    char temp [40];
     strcpy(temp,A);
     strcpy(A,B);
     strcpy(B,temp);
