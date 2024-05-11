@@ -8,7 +8,8 @@ int main ()
     i=vowel=consonent=digit=word=other=length=0;
     while((ch=s[i])!='\0')
     {
-        if(ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || ch=='o' || ch=='O' || ch=='u' || ch=='U')
+        if(ch=='a' || ch=='A' || ch=='e' || ch=='E' || ch=='i' || ch=='I' || \
+         ch=='o' || ch=='O' || ch=='u' || ch=='U')
         vowel ++;
         else if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')  )
             consonent ++;
