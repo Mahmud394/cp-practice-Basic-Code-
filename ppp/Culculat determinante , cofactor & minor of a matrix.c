@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-void getCofactor(int A[10][10], int temp[10][10], int p, int q, int n) {
+void Cofactor(int A[10][10], int temp[10][10], int p, int q, int n) {
     int i = 0, j = 0;
     for (int row = 0; row < n; row++) {
         for (int col = 0; col < n; col++) {
@@ -24,7 +24,7 @@ int determinant(int A[10][10], int n) {
     int temp[10][10];
     int sign = 1;
     for (int f = 0; f < n; f++) {
-        getCofactor(A, temp, 0, f, n);
+        Cofactor(A, temp, 0, f, n);
         D += sign * A[0][f] * determinant(temp, n - 1);
         sign = -sign;
     }
@@ -47,7 +47,7 @@ int main() {
     printf("Enter the elements of the matrix:\n");
     for(int i=0; i<n; i++) {
         for(int j=0; j<n; j++) {
-                printf("[%d] [%d] = ",i+1,j+1);
+                printf("[%d] [%d] = ",i,j);
             scanf("%d", &matrix[i][j]);
         }
     }
@@ -66,15 +66,18 @@ int main() {
     int temp[10][10];
     for(int i=0; i<n; i++) {
         for(int j=0; j<n; j++) {
-            getCofactor(matrix, temp, i, j, n);
+            Cofactor(matrix, temp, i, j, n);
             printf("%d ", determinant(temp, n-1) * ((i+j)%2 ? -1 : 1));
+            //testCondition ? expression1 : expression 2;
+            //expression1 = true print(-1)
+            //expression2 = false print(1)
         }
         printf("\n");
     }
     printf("The minor matrix is:\n");
     for(int i=0; i<n; i++) {
     for(int j=0; j<n; j++) {
-        getCofactor(matrix, temp, i, j, n);
+        Cofactor(matrix, temp, i, j, n);
         printf("%d ", determinant(temp, n-1));
     }
     printf("\n");
