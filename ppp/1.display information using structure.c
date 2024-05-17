@@ -15,13 +15,12 @@ int main ()
         printf("Enter ID :");
         scanf("%d",&N[i].id);
         printf("Enter salary :");
-        scanf("%f",& N[i].salary);   
+        scanf("%f",& N[i].salary);
     }
     for(int i=0;i<3;i++)
     {
-        printf(" Name : %c\n",N[i].name);
+        printf("\n\n Name : %s\n",N[i].name);
         printf(" ID : %d\n",N[i].id);
         printf(" Salary :%.2f",N[i].salary);
     }
-
 }

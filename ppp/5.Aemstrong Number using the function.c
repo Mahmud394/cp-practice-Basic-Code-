@@ -10,22 +10,17 @@ int armstrony(int n)
         temp=temp/10;
     }
     return sum;
-
 }
 int main ()
 {
-    
     int m;
     printf("Enter any number  :");
     scanf("%d",&m);
    int result = armstrony(m);
-    if(m==result)
-    {
+    if(m==result) {
         printf("Armstrong");
     }
-    else
-    {
+    else {
         printf("Not Armstrong");
     }
-
 }

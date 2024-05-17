@@ -1,3 +1,10 @@
+ /*
+Write a program in C to compare two strings
+without using string library functions.
+Input the 1st string : aabbcc
+Input the 2nd string : aabbcc
+Expected Output : Strings are equal.
+*/
 #include<stdio.h>
 int main ()
 {

@@ -5,7 +5,7 @@ int main ()
     int A[10][10],B[10][10],C[10][10];
     printf("Enter the number of row and col :");
     scanf("%d %d",&row,&col);
-
+    if(row== col){
     printf("Enter element of A matrix :\n");
     for (i=0;i<row;i++)
     {
@@ -69,6 +69,11 @@ int main ()
         }
 
         printf("\n");
+    }
+    }
+    else
+    {
+        printf("Row and Col are not equal");
     }
 
 }
