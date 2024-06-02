@@ -4,10 +4,10 @@
 int main ()
 {
     int i,j,col,row;
-    int A[10][10];
+   
     printf("Enter the number of row and col :");
     scanf("%d %d",&row,&col);
-
+     int A[row][col];
     printf("Enter element of A matrix :\n");
     for (i=0;i<row;i++)
     {

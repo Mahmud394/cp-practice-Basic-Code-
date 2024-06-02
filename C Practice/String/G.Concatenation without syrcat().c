@@ -10,12 +10,8 @@ int main ()
      char A[30]="Mahmud Un Nabi";
     char B[] =" Iam a student";
 
-    int i=0,j=0,len=0;
-    while(A[i]!='\0')
-    {
-        i++;
-        len++;
-    }
+    int j=0,len;
+   len= strlen(B);
     while (B[j]!='\0')
     {
         A[len+j] = B[j];
