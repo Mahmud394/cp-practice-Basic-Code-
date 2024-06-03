@@ -2,7 +2,7 @@
 int main ()
 {
     char s[100];
-    gets(s);
+    gets(s);        
     int n=strlen(s);
     int palindrome =1;
     for(int i=0;i<n/2;i++)

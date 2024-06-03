@@ -10,7 +10,7 @@ int main ()
     {
         if(s[i]>=65 && s[i]<=90)
             capital++;
-       else if(s[i]>97 && s[i]<=122)
+       else if(s[i]>=97 && s[i]<=122)
                 small++;
          else if(s[i]>=48 && s[i]<=57)
          digit++;
