@@ -9,17 +9,10 @@ int main ()
     {
         cin>>A[i];
 
-        if(A[i]<0)
+       if(A[i]<=10)
         {
-            cout<<2<<" ";
-        }
-        else if (A[i]==0)
-        {
-            cout<<0<<" ";
-        }
-        else
-        {
-            cout<<1<<" ";
+           // printf("A[%d] = %d\n",i,A[i]);
+            cout<<"A"<<"["<<i<<"]"<<" = "<<A[i]<<endl;
         }
     }
     return 0;
