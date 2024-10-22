@@ -18,7 +18,7 @@ int main ()
             // puts(str[0]);
             // printf("%d",len-2);
             // puts(str[len-1);
-            printf("%c%d%c",str[0],len-2,str[len-1]);
+            printf("%c%d%c\n",str[0],len-2,str[len-1]);
 
         }
         
