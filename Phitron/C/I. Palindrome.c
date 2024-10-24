@@ -10,7 +10,7 @@ int main ()
             s1[j]=s[i];
     }
     s1[n]='\0';
-    
+    //strrev(s);
     for(int i=0;i<n;i++)
     {
         if(s[i]!=s1[i])
