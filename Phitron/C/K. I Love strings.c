@@ -1,15 +1,14 @@
-#include<bits//stdc++.h>
-using namespace std;
-int main ()
-{
+#include <stdio.h>
+
+int main() {
     int N; 
-    cin>>N;
+    scanf("%d", &N);
 
     for (int t = 0; t < N; t++) {
         char S[51], T[51], result[102]; 
         int i = 0, j = 0, k = 0;
 
-        cin>>S>>T;
+        scanf("%s %s", S, T);
 
         while (S[i] != '\0' && T[j] != '\0') {
             result[k++] = S[i++]; 
@@ -25,7 +24,9 @@ int main ()
         }
 
         result[k] = '\0';
-        cout<<result<<endl;
-    }  
-    
+
+        printf("%s\n", result);
+    }
+
+    return 0;
 }
