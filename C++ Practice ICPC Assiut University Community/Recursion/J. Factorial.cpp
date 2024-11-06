@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int fact(long long int t)
+long long int fact(long long int t)
 {
     if(t==0)
     {
