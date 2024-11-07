@@ -5,7 +5,7 @@ void print_n(int t)
     for(int i=1;i<=t;i++)
     {
         cout<<i;
-        if(i>t)
+        if(i<t)
         {
             cout<<" ";
 
