@@ -19,7 +19,7 @@ int main ()
    d= strcmp (A,B);
    if(d==0)
    {
-       printf("Palimdrome");
+       printf("Palindrome");
    }
    else
    {
