@@ -21,6 +21,7 @@ Sample Output 0
 Sample Input 1
 
 50
+
 Sample Output 1
 
 21
