@@ -10,6 +10,8 @@ void printEvenIndicesReversed(int A[], int index)
     printEvenIndicesReversed(A, index - 2); 
 }
 
+
+
 int main() {
     int N;
     cin >> N;
