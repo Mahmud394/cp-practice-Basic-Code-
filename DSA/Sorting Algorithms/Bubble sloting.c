@@ -7,11 +7,11 @@ int main (){
 
     int arr[100];
 
-    printf("array element :\n");
+    printf("array element : ");
     for(int i=0; i<n; i++){
         scanf(" %d", &arr[i]);
     }
-    
+
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
            if(arr[j]>arr[j+1]){
@@ -23,7 +23,7 @@ int main (){
         }
     }
 
- printf("array element :\n");
+ printf("array element : ");
     for(int i=0; i<n; i++){
         printf(" %d", arr[i]);
     }
