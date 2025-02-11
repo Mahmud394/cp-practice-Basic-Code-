@@ -3,4 +3,4 @@
 .vscode
 output
 .idea
-.class
+*.class
