@@ -15,6 +15,7 @@ int main() {
         scanf("%d", &a[i]);
     }
 
+    
     // Selection Sort Algorithm
     for (i = 0; i < n - 1; i++) {
         min = i; // Assume current index as minimum

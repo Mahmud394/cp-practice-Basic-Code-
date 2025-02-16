@@ -16,6 +16,7 @@ void mergeSort(int A[], int low, int high) {
                 B[k++] = A[j++];
             }
         }
+        
 
         while (i <= mid) {
             B[k++] = A[i++];

@@ -13,7 +13,6 @@ void insertionSort(int arr[], int n) {
             arr[j + 1] = arr[j];
             j--;
         }
-
         // Place the current element in its correct position
         arr[j + 1] = temp;
     }
