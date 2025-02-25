@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-void insertionSort(int arr[], int n) {
+void insertionSort(int arr[], int n) // O(n^2) in the average and worst case, and O(n) in the best case
+{
+    
     int i, j, temp;
 
     // Outer loop for traversing the array

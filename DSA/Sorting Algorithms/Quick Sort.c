@@ -30,7 +30,8 @@ int partition(int arr[], int low, int high) {
     return j; // Return pivot position
 }
 // Quick Sort function (Recursive)
-void quickSort(int arr[], int low, int high) {
+void quickSort(int arr[], int low, int high)  //O(n log n) on average, and O(n^2) in the worst case
+ {
     if (low < high) {
         int pivotIndex = partition(arr, low, high); // Get pivot index
         quickSort(arr, low, pivotIndex - 1); // Sort left subarray

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void mergeSort(int A[], int low, int high) {
+void mergeSort(int A[], int low, int high)  //O(n log n) 
+ {
     if (low < high) {
         int mid = (low + high) / 2;
         mergeSort(A, low, mid);

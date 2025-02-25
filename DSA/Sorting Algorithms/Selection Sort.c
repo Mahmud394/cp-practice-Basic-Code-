@@ -17,7 +17,8 @@ int main() {
 
     
     // Selection Sort Algorithm
-    for (i = 0; i < n - 1; i++) {
+    for (i = 0; i < n - 1; i++)   //O(n^2)
+    {
         min = i; // Assume current index as minimum
 
         for (j = i + 1; j < n; j++) {
